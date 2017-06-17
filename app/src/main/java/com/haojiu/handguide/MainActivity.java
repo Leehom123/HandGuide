@@ -31,6 +31,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         i_know_btn = (Button)findViewById(R.id.i_know_btn);
         i_know_btn.setOnClickListener(this);
         i_know_btn.setOnClickListener(this);
+        i_know_btn.setOnClickListener(this);
         setMask();
     }
 
